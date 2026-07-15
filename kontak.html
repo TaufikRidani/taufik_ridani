@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Kontak - Toko Sembako Berkah</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background-image:url("https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1600&q=80");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+/* Header */
+header{
+    background:rgba(34,139,34,0.9);
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+header h1{
+    margin:0;
+    font-size:45px;
+}
+
+header p{
+    margin-top:15px;
+    font-size:20px;
+    color:white;
+}
+
+/* Menu */
+.menu{
+    background:rgba(0,100,0,0.9);
+    text-align:center;
+    padding:15px;
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    padding:15px 25px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.menu a:hover{
+    background:#FFD700;
+    color:black;
+    border-radius:5px;
+}
+
+/* Container */
+.container{
+    width:80%;
+    margin:auto;
+    background:rgba(255,255,255,0.92);
+    margin-top:25px;
+    margin-bottom:25px;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 15px rgba(0,0,0,.3);
+}
+
+h2{
+    color:#0B6623;
+    border-bottom:2px solid #2E8B57;
+    padding-bottom:10px;
+}
+
+/* Form */
+table{
+    width:100%;
+}
+
+td{
+    padding:10px;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid #999;
+    border-radius:5px;
+    box-sizing:border-box;
+    font-size:15px;
+}
+
+textarea{
+    resize:vertical;
+}
+
+input[type=submit]{
+    background:#2E8B57;
+    color:white;
+    border:none;
+    cursor:pointer;
+    font-weight:bold;
+    transition:.3s;
+}
+
+input[type=submit]:hover{
+    background:#FFD700;
+    color:black;
+}
+
+/* Footer */
+footer{
+    background:rgba(34,139,34,0.9);
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>TOKO SEMBAKO BERKAH</h1>
+    <p>Menyediakan Berbagai Kebutuhan Pokok dengan Harga Terjangkau</p>
+</header>
+
+<div class="menu">
+    <a href="index.html">Beranda</a>
+    <a href="profil.html">Profil</a>
+    <a href="galeri.html">Galeri</a>
+    <a href="kontak.html">Kontak</a>
+</div>
+
+<div class="container">
+
+<h2>Hubungi Kami</h2>
+
+<form>
+
+<table>
+
+<tr>
+<td width="25%">Nama Lengkap</td>
+<td><input type="text" placeholder="Masukkan nama lengkap"></td>
+</tr>
+
+<tr>
+<td>Email</td>
+<td><input type="email" placeholder="Masukkan email"></td>
+</tr>
+
+<tr>
+<td>Subjek</td>
+<td><input type="text" placeholder="Masukkan subjek"></td>
+</tr>
+
+<tr>
+<td>Pesan</td>
+<td>
+<textarea rows="6" placeholder="Tulis pesan Anda..."></textarea>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td><input type="submit" value="Kirim Pesan"></td>
+</tr>
+
+</table>
+
+</form>
+
+</div>
+
+<footer>
+    &copy; 2026 Toko Sembako Berkah | Semua Hak Dilindungi
+</footer>
+
+</body>
+</html>
